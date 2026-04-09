@@ -2,14 +2,14 @@
 
 Comprehensive SQL-Based Data Cleaning & Business Insights Project
 
- Project Overview
+ Project Overview:
 
 This project focuses on analyzing Blinkit grocery sales data using SQL.
 The goal is to clean the dataset, standardize inconsistent values, and generate meaningful business insights through multiple KPIs and analytical queries.
 
 The analysis helps understand sales performance, outlet behavior, product category contributions, and customer rating trends across the Blinkit platform.
 
- 1. Data Cleaning
+ 1. Data Cleaning:
 
 To maintain data consistency, the Item_Fat_Content field was standardized:
 
@@ -39,7 +39,7 @@ FROM blinkit_data;
 🔹 Average Rating
 SELECT CAST(AVG(Rating) AS DECIMAL(10,1)) AS Avg_Rating
 FROM blinkit_data;
- 3. Deep-Dive Analysis
+ 3. Deep-Dive Analysis:
 A. Total Sales by Fat Content
 SELECT Item_Fat_Content, CAST(SUM(Total_Sales) AS DECIMAL(10,2)) AS Total_Sales
 FROM blinkit_data
