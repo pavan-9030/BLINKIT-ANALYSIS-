@@ -85,3 +85,7 @@ CAST(AVG(Item_Visibility) AS DECIMAL(10,2)) AS Item_Visibility
 FROM blinkit_data
 GROUP BY Outlet_Type
 ORDER BY Total_Sales DESC;
+
+
+
+This project i enjoyed very lot with data and i faced so many challengs for using my sql
