@@ -88,4 +88,4 @@ ORDER BY Total_Sales DESC;
 
 
 
-This project i enjoyed very lot with data and i faced so many challengs for using my sql
+This project i enjoyed very lot with data and i faced so many challengs for using my sql.
