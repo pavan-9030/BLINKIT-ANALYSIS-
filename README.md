@@ -90,4 +90,5 @@ GROUP BY Outlet_Type
 ORDER BY Total_Sales DESC;
 Project Experience
 
+
 I enjoyed working on this project because it helped me improve my SQL skills and gain practical experience in data analysis. I faced several challenges while cleaning the data, writing analytical queries, and generating business insights, which helped me strengthen my problem-solving abilities and understanding of SQL concepts.
